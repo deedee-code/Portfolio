@@ -38,8 +38,12 @@ export default function About() {
             <p className="my-2 max-w-xl py-6"> {ABOUT_TEXT} </p>
           </div>
 
-          <button className="bg-green-800 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-md">
-            <a href="../assets/Doris Owoeye.pdf" download>
+          <button className="bg-green-800 hover:bg-green-600 text-black font-bold py-2 px-4 rounded-md">
+            <a
+              href="/Doris Owoeye.pdf"
+              download
+              className="flex items-center gap-2"
+            >
               Download CV
               <FiDownload />
             </a>

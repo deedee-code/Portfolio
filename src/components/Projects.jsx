@@ -44,10 +44,6 @@ export default function Projects() {
                   Project Link
                 </a>
               </div>
-              {/* <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <a href={project.link} className="mb-2 text-blue-400">
-                Link
-              </a> */}
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
